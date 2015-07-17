@@ -1,5 +1,10 @@
 'use strict'
 
-function clicked() {
-  console.log('Hi!');
-};
+var ngModule = angular.module('quickTweet',[]);
+
+ngModule.controller('MainController', function($scope){
+  var main = this;
+  main.hoge = function() {
+    return console.log('fooo!!!');
+  }
+});
