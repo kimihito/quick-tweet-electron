@@ -14,8 +14,8 @@ app.on('window-all-closed', function(){
 
 app.on('ready', function(){
   mainWindow = new BrowserWindow({
-    width: 90,
-    height: 90,
+    width: 600,
+    height: 450,
     frame: false,
     transparent: true,
     resizable: false

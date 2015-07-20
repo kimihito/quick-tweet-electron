@@ -1,0 +1,29 @@
+.bubble {
+  margin: 6px 2px 20px 12px;
+  position: relative;
+  width: 360px;
+  display: none;
+}
+
+.bubble .body {
+  margin: 0;
+  padding: 12px;
+  color: #ffffff;
+  background-color: #66aa11;
+  font-size: 12px;
+  text-align: justify;
+  text-shadow: 0 -1px 0 #000000;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.bubble .tail-bottom-left {
+  border-top: 18px solid #66aa11;
+  border-right: 24px solid transparent;
+  position: absolute;
+  bottom: -18px;
+  left: 36px;
+  width: 0;
+  height: 0;
+}
