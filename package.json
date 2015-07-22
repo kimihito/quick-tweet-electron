@@ -2,5 +2,9 @@
   "name": "quick-tweet-electron",
   "version": "0.0.1",
   "description": "",
-  "main": "main.js"
+  "main": "main.js",
+  "dependencies": {
+    "oauth": "^0.9.13",
+    "twitter": "^1.2.5"
+  }
 }
